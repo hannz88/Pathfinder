@@ -154,7 +154,7 @@ def trace_path(maze, solution):
 if __name__ == "__main__":
     filepath = input("Please provide the full path to you maze:")
     mazetxt = create_maze_from_path(filepath)
-    path = input("Please provide the symbol for usable path. If empty please provide " ":")
+    path = input("Please provide the symbol for usable path. If empty please press space:")
     wall = input("Please provide the symbol for wall:")
     entrance = input("Please provide the symbol for entrance:")
     exit = input("Please provide the symbol for exit:")

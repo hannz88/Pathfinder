@@ -109,7 +109,7 @@ def breadth_first_search(dungeon, start):
     # loop through all moves while the travels is not empty
 
     while travels:
-        print(travels)
+        print(f"Possible paths:{travels}")
         path = travels.get()
 #         print(f"itt: {itt} - path:{path}")
         

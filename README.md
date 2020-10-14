@@ -36,12 +36,12 @@ The algorithm uses `Python 3.7.4`. So, make sure the `Python` installed is up to
 [(Back to top)](#table-of-content)
 
 After running the file, it will ask for the path to the maze:
-![Screenshot asking for path](https://github.com/hanz88/blob/master/Screenshots/pathname.png)
+![Screenshot asking for path](https://github.com/hannz88/Pathfinder/blob/master/Screenshots/pathname.png)
 
 Please make sure that the file is in the `.txt` format. 
 
 Here's an example of a maze that's included in `maze.txt`:
-![Screenshot for maze](https://github.com/hanz88/blob/master/Screenshots/maze.png)
+![Screenshot for maze](https://github.com/hannz88/Pathfinder/blob/master/Screenshots/maze.png)
 
 After the path name, it will print out your maze before proceeding to ask for the representation of:
 - path
@@ -57,5 +57,5 @@ After the necessary information are provided, the algorithm will output the foll
 - `Possible paths`: The viable paths up travelled so far.
 
 Lastly, the shortest route will be shown. For example:
-![Screenshot for output](https://github.com/hanz88/blob/master/Screenshots/output.png)
+![Screenshot for output](https://github.com/hannz88/Pathfinder/blob/master/Screenshots/output.png)
 The shortest route is marked with `+`.

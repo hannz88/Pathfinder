@@ -4,7 +4,7 @@
 
 ![Python Version](https://img.shields.io/badge/Python-3.7.4-brightgreen) 
 
-A pathfinder algorithm that is based on breadth first search. It will plot the shortest route to the exit.
+A collection of algorithms that I wrote showcasing different algorithms to find the route through a maze.
 
 
 # Table of content
@@ -14,6 +14,7 @@ A pathfinder algorithm that is based on breadth first search. It will plot the s
 - [Usage](#usage)
 - [Output](#output)
 - [Algorithm Explanation](#algorithm-explanation)
+- [Links](#links)
 
 # Running
 [(Back to top)](#table-of-content)
@@ -63,3 +64,22 @@ Lastly, the shortest route will be shown. For example:
 ![Screenshot for output](https://github.com/hannz88/Pathfinder/blob/master/Screenshots/output.png)
 
 The shortest route is marked with `+`.
+
+# Algorithm Explanation
+Here is the explanation for the idea behind `dungeon_escape_mk2.py`. The code is based on the Breadth First Search algorithm. The idea is that the algorithm will explore all routes, one node at a time. The first one to reach the exit will then be the shortest route. In other words: start at the root/ entrance, then explore the neighbours before moving onto the children of the neighbours. The pseudocode is as follows:
+
+```
+1. Start at the root/ entrance.
+2. Place the root/ entrance into the a queue, Travels.
+3. While Travels is not empty:
+    1. Remove the current path from Travels.
+    2. Get the last visited node from Travels. For every child of the node:
+        1. If it's exit, return the child with the current path.
+        2. If not exit and if it's a viable path:
+            1. Mark the child node as visited and append the child node to the current path.
+            2. Place the newly appended current path to Travels
+```
+
+# Links
+* [Path Finding Algorithms](https://medium.com/omarelgabrys-blog/path-finding-algorithms-f65a8902eb40)
+* [Breadth First Search Wikipedia](https://en.wikipedia.org/wiki/Breadth-first_search)

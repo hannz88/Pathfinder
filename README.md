@@ -66,6 +66,10 @@ Lastly, the shortest route will be shown. For example:
 The shortest route is marked with `+`.
 
 # Algorithm Explanation
+[(Back to top)](#table-of-content)
+
+![GIF of Breadth First Search](https://github.com/hannz88/Pathfinder/blob/master/Screenshots/breadthfirstsearch.gif)
+
 Here is the explanation for the idea behind `dungeon_escape_mk2.py`. The code is based on the Breadth First Search algorithm. The idea is that the algorithm will explore all routes, one node at a time. The first one to reach the exit will then be the shortest route. In other words: start at the root/ entrance, then explore the neighbours before moving onto the children of the neighbours. The pseudocode is as follows:
 
 ```
